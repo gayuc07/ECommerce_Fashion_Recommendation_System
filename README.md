@@ -34,6 +34,12 @@ The e-commerce data from Flipkart and Myntra was obtained from Kaggle and contai
 
 Source: Kaggle - https://www.kaggle.com/PromptCloudHQ/flipkart-products
 
+## Methodology
+
+### Workflow - Development
+
+![Dev_Workflow](images/dev_workflow.png?raw=true)
+
 
 
 
