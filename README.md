@@ -40,6 +40,34 @@ Source: Kaggle - https://www.kaggle.com/PromptCloudHQ/flipkart-products
 
 ![Dev_Workflow](images/dev_workflow.png?raw=true)
 
+### Workflow - Application
+
+![App_Workflow](images/app_work_flow.JPG?raw=true)
+
+## Conclusion
+
+SnapFash was built with the goal of simplifying communication between consumers and sellers with respect to online fashion retail. Based on the results of this project, this attempt to bridge the gap between a user’s expectations and e-commerce search results via image-based recommendation proved to be fairly successful. As seen in Appendix D., in most instances, the results are robust and very reasonable given the scope of the available e-commerce data. The object detection phase utilized the YOLO v4 architecture with an average F1 score of 0.8 and IoU of 0.63. The other two unsupervised-learning phases - feature extraction and similarity scoring were comprehensively explored using a variety of methods and significant manual evaluations were leveraged to pick the best approach at each step. It is important to note that due to the nature of the fashion domain, a large aspect of the project involved understanding and wrangling the data. Finding the right thresholds and fine-tuning the models to fit the purposes of DeepFashion and the e-commerce data while ensuring scalability were crucial to the performance of the SnapFash system. 
+
+### Repository Briefings
+
+#### Object Detection Training
+
+Contains two deep learning approaches (Modified VGG and YOLO4.0[darknet]) to object detection and bounding box estimation. 
+
+#### Feature Extraction
+
+Contains garment detection, feature extraction using a variety of pre-trained models (Inception-ResNet, VGG, MobileNet,...), and cosine similarity implementations on open-source e-commerce listings. Garment listings are pooled from Flipkart and Myntra (Indian e-commerce stores), which are used for recommendations.
+
+#### Similarity Evaluation
+
+Contains examples of garment recommendations used in manual evaluations to determine the best pre-trained model. For example:
+
+![Example](images/ex_1.jpg?raw=true)
+
+#### Webapp
+
+Contains streamlit (https://streamlit.io/) implementation of the fashion recommendation engine. Allows users to upload image and crop the garment of interest.
+
 
 
 
