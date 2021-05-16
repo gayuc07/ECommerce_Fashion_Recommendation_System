@@ -2,6 +2,7 @@
 #### An image-based e-commerce fashion recommendation system
 
 Repository for image-based fashion/garment recommendation engine created for the M.S. capstone course in Data Science at GWU.
+
 Authors: Anamay Agnihotri and Gayathri Chandrasekharan
 
 ## Introduction
